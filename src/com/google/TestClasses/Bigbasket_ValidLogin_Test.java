@@ -11,7 +11,7 @@ import com.google.POMclasses.BigBasket_MultiPackPage;
 
 public class Bigbasket_ValidLogin_Test 
 {
-	@Test//======Test method to execute and calling the pom classes
+	@Test//======Test method to execute and calling the pom classes successfully
 	public void LoginandLogout() throws InterruptedException
 	{
 		System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
